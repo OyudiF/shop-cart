@@ -7,4 +7,4 @@ console.log("Welcome to your shopping cart");
 const item1 = await createItem("hotwheels ferrari", 20.99, 1);
 const item2 = await createItem("hotwheels lamborghini", 39.99, 3);
 
-console.log(item2.total());
+console.log(item2.total()); 
